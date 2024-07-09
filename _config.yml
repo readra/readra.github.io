@@ -1,15 +1,15 @@
-title: example.com
-description: "Satellite - jekyll blog theme"
+title: 소스 보관함 (Source Container)
+description: "Source Container"
 logo_img: "/assets/img/favicon.webp"
 profile_img: "/assets/img/profile.webp"
 
 # Social Links
-email: example@gmail.com
-github_username: github
-twitter_username: twitter
-instagram_username: instagram
-linkedin_username: linkedin
-facebook_username: facebook
+email: yong6302@gmail.com
+github_username: readra
+#twitter_username: twitter
+#instagram_username: instagram
+#linkedin_username: linkedin
+#facebook_username: facebook
 
 # External API
 giscus_repo: "byanko55/jekyll-theme-satellite"
@@ -45,7 +45,7 @@ defaults:
       type: "pages"
     values:
       layout: "page"
-      date: "1900-01-01"
+      date: "2024-07-09"
 
 # Markdown newline activator 
 kramdown:
