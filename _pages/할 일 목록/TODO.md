@@ -1,6 +1,7 @@
 ---
 title: "정리해야 할 글 목록"
 date: "2024-07-07"
+thumbnail: "/assets/img/thumbnail/todo.webp"
 ---
 
 # 정리해야 할 글 목록
