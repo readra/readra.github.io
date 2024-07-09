@@ -7,14 +7,10 @@ thumbnail: "/assets/img/thumbnail/custom.webp"
 # Spring Boot + Maven 환경에서 커스텀 빌드하기
 ---
 
-**Fill the image path to the 'thumbnail' attribute, if you want a main image to be displayed on the post header image.**
-
 ```
----
-title: "Example Post: thumbnail exists"
-date: "2023-12-02"
-thumbnail: "/assets/img/thumbnail/bricks.webp"
----
+현재 나는 솔루션 회사에 근무하고 있다. 여러 업무 중 하나로 API 서버를 개발/유지보수하고 있다.
+솔루션에는 대부분 기능의 표준이 존재하지만, 고객의 (강력한) 요청에 의해 표준의 경계가 흐려지거나 망가지는 케이스가 많았다.
+API 서버도 동일했다. 커스터마이징 해달라는 고객의 (강력한) 요청이 있었고, 이를 대응하기 위해 하나의 프로젝트에서 고객사별로 커스텀 빌드가 가능하도록 처리한 내용을 정리하려고 한다.
 ```
 
 The rest content is just meaningless dummy text.
