@@ -1,9 +1,9 @@
 ---
-title: "Example Post: no thumbnail image"
-date: "2023-12-01"
+title: "Spring Boot + Maven 환경에서 커스텀 빌드하기"
+date: "2024-07-09"
 ---
 
-# Follow the guidance
+# Spring Boot + Maven 환경에서 커스텀 빌드하기
 ---
 
 **Fill the image path to the 'thumbnail' attribute, if you want a main image to be displayed on the post header image.**
