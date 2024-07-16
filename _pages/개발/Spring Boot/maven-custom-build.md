@@ -40,4 +40,4 @@ AS-IS 구조의 개발이 안좋다고 말하려는 것이 아니다.
 ```
 
 <b>프로젝트 준비</b><br>
-<img alt="일반적인 Spring Boot + Maven 프로젝트" src="./project-setting.png"/>
+![일반적인 Spring Boot + Maven 프로젝트](/assets/img/pages/maven-custom-build/project-setting.png)
