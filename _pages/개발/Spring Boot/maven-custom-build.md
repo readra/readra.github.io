@@ -41,13 +41,12 @@ AS-IS 구조의 개발이 안좋다고 말하려는 것이 아니다.
 
 <b>프로젝트 준비</b><br>
 ![일반적인 Spring Boot + Maven 프로젝트](/assets/img/pages/maven-custom-build/project-setting.png)
-
 1. Common API 테스트 코드 작성 (+REST Docs)
 2. Common API 테스트 코드 기반으로 실제 코드 작성
 3. Customizing API 테스트 코드 작성 (+REST Docs)
 4. Customizing API 테스트 코드 기반으로 실제 코드 작성
 5. Common + Customizing API 패키징 (실제 코드 + 테스트 코드 + REST Docs)
 
-위의 총 5-Step 에 걸쳐 정리할 예정이다. </br>
+위의 총 5-Step 에 걸쳐 정리할 예정이다.
 
 다음 글에서는 간단한 Common API 테스트 코드 작성하여 REST Docs API 문서를 만들고, 이를 기반으로 실제 코드를 작성하도록 하겠다.
