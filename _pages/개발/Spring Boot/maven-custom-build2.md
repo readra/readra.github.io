@@ -8,7 +8,7 @@ thumbnail: "/assets/img/thumbnail/custom2.webp"
 ---
 
 ## REST API 예제 작성
-예제는 최대한 간단하게 작성한다. (이게 중요한 게 아니니까)
+예제는 최대한 간단하게 작성한다. (이게 중요한 게 아니니까) 
 
 ### Test Code
 ```java
