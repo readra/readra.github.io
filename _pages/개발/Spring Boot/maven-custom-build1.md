@@ -39,7 +39,7 @@ AS-IS 구조의 개발이 안좋다고 말하려는 것이 아니다.
 커스터마이징 너무 싫다... 조금만 줄이고 싶다...
 ```
 
-<b>프로젝트 준비</b><br>
+## 프로젝트 준비
 ![일반적인 Spring Boot + Maven 프로젝트](/assets/img/pages/maven-custom-build/project-setting.png)
 1. Common API 테스트 코드 작성 (+REST Docs)
 2. Common API 테스트 코드 기반으로 실제 코드 작성
