@@ -172,3 +172,28 @@ public class HelloWorldService {
 	}
 }
 ```
+
+### REST Docs
+```asciidoc
+= Rest Docs Sample API Document
+readra.github.io
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 2
+:sectlinks:
+
+[[introduction]]
+== 소개
+readra Spring Rest Docs API
+
+---
+
+=== 안녕하세요 API
+안녕하세요 API를 소개합니다.
+
+operation::Hello World[snippets='http-request,path-parameters,http-response,response-fields,curl-request']
+
+---
+```
