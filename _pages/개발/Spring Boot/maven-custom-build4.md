@@ -11,3 +11,5 @@ thumbnail: "/assets/img/thumbnail/custom3.webp"
 공통 API 혹은 고객사 전용 API 를 포함하는 BUILD 예제를 작성한다.
 
 이건 중요하다...
+
+### pom.xml
