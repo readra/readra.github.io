@@ -13,3 +13,7 @@ thumbnail: "/assets/img/thumbnail/custom3.webp"
 이건 중요하다...
 
 ### pom.xml
+
+### 일반 빌드
+
+### 커스텀 빌드
