@@ -13,6 +13,23 @@ thumbnail: "/assets/img/thumbnail/custom3.webp"
 이건 중요하다...
 
 ### pom.xml
+```xml
+<dependency>
+  <groupId>org.codehaus.mojo</groupId>
+  <artifactId>exec-maven-plugin</artifactId>
+  <version>3.3.0</version>
+</dependency>
+<dependency>
+  <groupId>org.codehaus.mojo</groupId>
+  <artifactId>properties-maven-plugin</artifactId>
+  <version>1.2.1</version>
+</dependency>
+<dependency>
+  <groupId>org.codehaus.mojo</groupId>
+  <artifactId>build-helper-maven-plugin</artifactId>
+  <version>3.3.0</version>
+</dependency>
+```
 
 ### 일반 빌드
 
