@@ -19,11 +19,15 @@ thumbnail: "/assets/img/thumbnail/custom3.webp"
   <artifactId>exec-maven-plugin</artifactId>
   <version>3.3.0</version>
 </dependency>
+```
+```xml
 <dependency>
   <groupId>org.codehaus.mojo</groupId>
   <artifactId>properties-maven-plugin</artifactId>
   <version>1.2.1</version>
 </dependency>
+```
+```xml
 <dependency>
   <groupId>org.codehaus.mojo</groupId>
   <artifactId>build-helper-maven-plugin</artifactId>
