@@ -20,6 +20,7 @@ thumbnail: "/assets/img/thumbnail/custom3.webp"
   <version>3.3.0</version>
 </dependency>
 ```
+빌드 시, 특정 클래스의 main() 함수를 실행시키고 싶을 때 사용한다.
 ```xml
 <dependency>
   <groupId>org.codehaus.mojo</groupId>
