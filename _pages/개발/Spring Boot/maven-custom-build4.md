@@ -28,6 +28,7 @@ thumbnail: "/assets/img/thumbnail/custom3.webp"
   <version>1.2.1</version>
 </dependency>
 ```
+빌드 시, 특정 파일 기준으로 properties 읽고 싶을 때 사용한다.
 ```xml
 <dependency>
   <groupId>org.codehaus.mojo</groupId>
