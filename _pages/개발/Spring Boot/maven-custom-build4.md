@@ -20,7 +20,7 @@ thumbnail: "/assets/img/thumbnail/custom3.webp"
   <version>3.3.0</version>
 </dependency>
 ```
-빌드 시, 특정 클래스의 main() 함수를 실행시키고 싶을 때 사용한다.
+빌드 시, 특정 클래스의 main() 함수를 실행시키기 위해 사용한다.
 ```xml
 <dependency>
   <groupId>org.codehaus.mojo</groupId>
@@ -28,7 +28,7 @@ thumbnail: "/assets/img/thumbnail/custom3.webp"
   <version>1.2.1</version>
 </dependency>
 ```
-빌드 시, 특정 파일 기준으로 properties 읽고 싶을 때 사용한다. 버전 표시용
+빌드 시, 특정 파일 기준으로 properties 읽기 위해 사용한다. 버전 표시용
 ```xml
 <dependency>
   <groupId>org.codehaus.mojo</groupId>
@@ -36,6 +36,7 @@ thumbnail: "/assets/img/thumbnail/custom3.webp"
   <version>3.3.0</version>
 </dependency>
 ```
+빌드 시, 커스터마이징 코드를 추가적으로 빌드에 포함시키기 위해 사용한다.
 
 ### 일반 빌드
 
