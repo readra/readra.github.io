@@ -38,9 +38,15 @@ thumbnail: "/assets/img/thumbnail/custom3.webp"
 ```
 빌드 시, 커스터마이징 코드를 추가적으로 빌드에 포함시키기 위해 사용한다.
 
+그 외, 나머지 빌드 스크립트는 GitHub 소스를 참고하세요.
+
+URL : https://github.com/readra/spring-boot-maven-custom-build
+
 ### 일반 빌드
+mvn clean package
 
 ### 커스텀 빌드
+mvn clean package -Pcustom -Dsite.name=customer
 
 ### 결과
 
