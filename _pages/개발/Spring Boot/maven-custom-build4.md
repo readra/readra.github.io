@@ -46,11 +46,11 @@ mvn clean package
 mvn clean package -Pcustom -Dsite.name=customer   
 
 ### 결과
-![일반 빌드 결과](/assets/img/pages/maven-custom-build/common-build.png)   
+![일반 빌드 결과](/assets/img/pages/maven-custom-build/common-build.png)
 spring-boot-maven-custom-build-0.0.1-SNAPSHOT-v1.tar.gz : 일반 모듈 패키지   
 spring-boot-maven-custom-build-0.0.1-SNAPSHOT-docs-v1.tar.gz : 일반 API 문서 패키지   
 
-![커스텀 빌드 결과](/assets/img/pages/maven-custom-build/custom-build.png)   
+![커스텀 빌드 결과](/assets/img/pages/maven-custom-build/custom-build.png)
 spring-boot-maven-custom-build-0.0.1-SNAPSHOT-v1.1.tar.gz : 일반 모듈 패키지   
 spring-boot-maven-custom-build-0.0.1-SNAPSHOT-docs-v1.1.tar.gz : 일반 API 문서 패키지   
 spring-boot-maven-custom-build-0.0.1-SNAPSHOT-customer-docs-v1.1.tar.gz : 커스텀 API 문서 패키지   
@@ -60,8 +60,8 @@ spring-boot-maven-custom-build-0.0.1-SNAPSHOT-customer-docs-v1.1.tar.gz : 커스
 가끔 구글링하다보면 똑같은 예제 코드에 똑같은 설명 복붙한 글들이 넘치는 것을 보고 저렇게 할거면 하지를 말아야지 라고 생각한 적이 있다.   
 업무에서 개발한 코드를 그대로 사용하지 않고, 다른 Repository 로 따로 정리하는 것은 생각보다 쉽지 않은 작업이었다.   
 장점과 단점으로 정리하고 마무리하겠다.   
-(장점)   
+(장점)
 1. 업무상 개발했던 코드를 다시 한 번 정리하며 학습하는 효과
 
-(단점)   
+(단점)
 1. 쌓여있는 개발 노하우나 코드들을 빠르게 정리하고 싶었지만, 생각보다 공수가 많이 들어가는 작업임을 깨달음
