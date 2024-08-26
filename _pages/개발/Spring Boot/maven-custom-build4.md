@@ -49,5 +49,18 @@ mvn clean package
 mvn clean package -Pcustom -Dsite.name=customer
 
 ### 결과
+![일반 빌드 결과](/assets/img/pages/maven-custom-build/common-build.png)
+
+spring-boot-maven-custom-build-0.0.1-SNAPSHOT-v1.tar.gz : 일반 모듈 패키지
+
+spring-boot-maven-custom-build-0.0.1-SNAPSHOT-docs-v1.tar.gz : 일반 API 문서 패키지
+
+![커스텀 빌드 결과](/assets/img/pages/maven-custom-build/custom-build.png)
+
+spring-boot-maven-custom-build-0.0.1-SNAPSHOT-v1.1.tar.gz : 일반 모듈 패키지
+
+spring-boot-maven-custom-build-0.0.1-SNAPSHOT-docs-v1.1.tar.gz : 일반 API 문서 패키지
+
+spring-boot-maven-custom-build-0.0.1-SNAPSHOT-customer-docs-v1.1.tar.gz : 커스텀 API 문서 패키지
 
 ### 마치며
