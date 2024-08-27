@@ -16,7 +16,7 @@ date: "2024-07-07"
 ---
 ```
 
-1. Spring Boot + Maven 커스텀 빌드 (진행중)
+1. Spring Boot + Maven 커스텀 빌드 (완료)
 2. Netty Decoder 적용
 3. Datasource Router 적용
 4. Spring Security 다중 Provider 사용할 경우, 주의점
