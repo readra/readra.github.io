@@ -25,3 +25,4 @@ date: "2024-07-07"
 7. Netflix 부검 메일 작성
 8. Rest API 검색 조건 1개 이상 설정 강제
 9. Request Param LocalDateTime 다중 Pattern 적용
+10. 아이디어 (면접 질문)
