@@ -27,7 +27,7 @@ date: "2024-07-07"
 9. Request Param LocalDateTime 다중 Pattern 적용
 10. @Transactional 과 AOP 활용한 서비스 로직 개선
 
-**(번외) 면접 스터디**
+**면접 스터디**
 
 - with / recursive with 문을 사용하지 말라고 권고가 내려왔다 이유가 무엇이라 생각하며 어떻게 해결할 것인가?
 - 화면에서 parameter 변조로 권한이 없는 화면이 보이는 현상이 있다고 가정할 때, 추후에 이런 점을 어떤 방식으로 보완해서 설계를 할 것인가?
