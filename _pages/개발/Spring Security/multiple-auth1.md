@@ -18,3 +18,10 @@ Spring Security 기반 API 인증 방식을 2가지 이상 지원 시, 발생했
 2. 잘못된 예외 처리로 인해 다중 인증 방식이 정상적으로 동작하지 않은 원인
 
 # ProviderManager Class 해체 분석
+
+```java
+public class ProviderManager {
+    /* 중략 */
+    /* 중략 */
+}
+```
