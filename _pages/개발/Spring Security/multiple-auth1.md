@@ -20,8 +20,76 @@ Spring Security 기반 API 인증 방식을 2가지 이상 지원 시, 발생했
 # ProviderManager Class 해체 분석
 
 ```java
-public class ProviderManager {
-    /* 중략 */
-    /* 중략 */
+public class ProviderManager implements AuthenticationManager, MessageSourceAware, InitializingBean { 
+	/* 중략 */
+	public Authentication authenticate(Authentication authentication) throws AuthenticationException {
+		Class<? extends Authentication> toTest = authentication.getClass();
+		AuthenticationException lastException = null;
+		AuthenticationException parentException = null;
+		Authentication result = null;
+		Authentication parentResult = null;
+		int currentPosition = 0;
+		int size = this.providers.size();
+		Iterator var9 = this.getProviders().iterator();
+
+		while(var9.hasNext()) {
+			AuthenticationProvider provider = (AuthenticationProvider)var9.next();
+			if (provider.supports(toTest)) {
+				if (logger.isTraceEnabled()) {
+					Log var10000 = logger;
+					String var10002 = provider.getClass().getSimpleName();
+					++currentPosition;
+					var10000.trace(LogMessage.format("Authenticating request with %s (%d/%d)", var10002, currentPosition, size));
+				}
+
+				try {
+					result = provider.authenticate(authentication);
+					if (result != null) {
+						this.copyDetails(authentication, result);
+						break;
+					}
+				} catch (InternalAuthenticationServiceException | AccountStatusException var14) {
+					this.prepareException(var14, authentication);
+					throw var14;
+				} catch (AuthenticationException var15) {
+					lastException = var15;
+				}
+			}
+		}
+
+		if (result == null && this.parent != null) {
+			try {
+				parentResult = this.parent.authenticate(authentication);
+				result = parentResult;
+			} catch (ProviderNotFoundException var12) {
+			} catch (AuthenticationException var13) {
+				parentException = var13;
+				lastException = var13;
+			}
+		}
+
+		if (result != null) {
+			if (this.eraseCredentialsAfterAuthentication && result instanceof CredentialsContainer) {
+				((CredentialsContainer)result).eraseCredentials();
+			}
+
+			if (parentResult == null) {
+				this.eventPublisher.publishAuthenticationSuccess(result);
+			}
+
+			return result;
+		} else {
+			if (lastException == null) {
+				lastException = new ProviderNotFoundException(this.messages.getMessage("ProviderManager.providerNotFound", new Object[]{toTest.getName()}, "No AuthenticationProvider found for {0}"));
+			}
+
+			if (parentException == null) {
+				this.prepareException((AuthenticationException)lastException, authentication);
+			}
+
+			throw lastException;
+		}
+	}
+	/* 중략 */
 }
 ```
