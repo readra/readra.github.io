@@ -55,10 +55,12 @@ defaults:
       layout: "page"
       date: "1900-01-01"
 
-# Markdown newline activator 
+# Markdown newline activator
+markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: true
+  highlighter: rouge
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     block:
