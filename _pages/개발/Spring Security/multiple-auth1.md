@@ -32,7 +32,7 @@ public class ProviderManager implements AuthenticationManager, MessageSourceAwar
 		int size = this.providers.size();
 		Iterator var9 = this.getProviders().iterator();
 
-		while(var9.hasNext()) {
+		while(var9.hasNext()) { // 1번
 			AuthenticationProvider provider = (AuthenticationProvider)var9.next();
 			if (provider.supports(toTest)) {
 				if (logger.isTraceEnabled()) {
@@ -42,33 +42,33 @@ public class ProviderManager implements AuthenticationManager, MessageSourceAwar
 					var10000.trace(LogMessage.format("Authenticating request with %s (%d/%d)", var10002, currentPosition, size));
 				}
 
-				try {
+				try { // 2번
 					result = provider.authenticate(authentication);
 					if (result != null) {
 						this.copyDetails(authentication, result);
 						break;
 					}
-				} catch (InternalAuthenticationServiceException | AccountStatusException var14) {
+				} catch (InternalAuthenticationServiceException | AccountStatusException var14) { // 3번
 					this.prepareException(var14, authentication);
 					throw var14;
-				} catch (AuthenticationException var15) {
+				} catch (AuthenticationException var15) { // 4번
 					lastException = var15;
 				}
 			}
 		}
 
-		if (result == null && this.parent != null) {
+		if (result == null && this.parent != null) { // 5번
 			try {
 				parentResult = this.parent.authenticate(authentication);
 				result = parentResult;
 			} catch (ProviderNotFoundException var12) {
-			} catch (AuthenticationException var13) {
+			} catch (AuthenticationException var13) { // 6번
 				parentException = var13;
 				lastException = var13;
 			}
 		}
 
-		if (result != null) {
+		if (result != null) { // 7번
 			if (this.eraseCredentialsAfterAuthentication && result instanceof CredentialsContainer) {
 				((CredentialsContainer)result).eraseCredentials();
 			}
@@ -79,7 +79,7 @@ public class ProviderManager implements AuthenticationManager, MessageSourceAwar
 
 			return result;
 		} else {
-			if (lastException == null) {
+			if (lastException == null) { // 8번
 				lastException = new ProviderNotFoundException(this.messages.getMessage("ProviderManager.providerNotFound", new Object[]{toTest.getName()}, "No AuthenticationProvider found for {0}"));
 			}
 
