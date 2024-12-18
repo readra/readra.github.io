@@ -93,3 +93,5 @@ public class ProviderManager implements AuthenticationManager, MessageSourceAwar
 	/* 중략 */
 }
 ```
+
+1. 등록된 Providers 하나씩 루핑하면서 while 문 내부의 동작을 수행한다.
