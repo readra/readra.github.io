@@ -95,4 +95,5 @@ public class ProviderManager implements AuthenticationManager, MessageSourceAwar
 ```
 
 1. 등록된 Providers 하나씩 루핑하면서 while 문 내부의 동작을 수행한다.
-2. 등록된 Provider 의 authenticate 함수의 결과를 result 에 저장한다. 이 때, InternalAuthenticationServiceException 과 AccountStatusException 발생 시, 인증 실패하며, AuthenticationException 발생 시, 다음 Provider 로 넘어간다.  
+2. 등록된 Provider 의 authenticate 함수의 결과를 result 에 저장한다. 
+3. InternalAuthenticationServiceException 혹은 AccountStatusException 발생 시, 예외가 throw 되며 인증에 실패한다. AuthenticationException 발생 시, 다음 Provider 로 넘어간다.  
