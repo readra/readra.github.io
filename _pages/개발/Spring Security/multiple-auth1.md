@@ -57,18 +57,18 @@ public class ProviderManager implements AuthenticationManager, MessageSourceAwar
 			}
 		}
 
-		if (result == null && this.parent != null) { // 5번
+		if (result == null && this.parent != null) {
 			try {
 				parentResult = this.parent.authenticate(authentication);
 				result = parentResult;
 			} catch (ProviderNotFoundException var12) {
-			} catch (AuthenticationException var13) { // 6번
+			} catch (AuthenticationException var13) {
 				parentException = var13;
 				lastException = var13;
 			}
 		}
 
-		if (result != null) { // 7번
+		if (result != null) { // 5번
 			if (this.eraseCredentialsAfterAuthentication && result instanceof CredentialsContainer) {
 				((CredentialsContainer)result).eraseCredentials();
 			}
@@ -79,7 +79,7 @@ public class ProviderManager implements AuthenticationManager, MessageSourceAwar
 
 			return result;
 		} else {
-			if (lastException == null) { // 8번
+			if (lastException == null) { // 6번
 				lastException = new ProviderNotFoundException(this.messages.getMessage("ProviderManager.providerNotFound", new Object[]{toTest.getName()}, "No AuthenticationProvider found for {0}"));
 			}
 
