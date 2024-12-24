@@ -98,3 +98,4 @@ public class ProviderManager implements AuthenticationManager, MessageSourceAwar
 2. 등록된 Provider 의 authenticate 함수의 결과를 result 에 저장한다. 
 3. InternalAuthenticationServiceException 혹은 AccountStatusException 발생 시, 예외가 throw 되며 인증에 실패한다. 
 4. AuthenticationException 발생 시, 마지막 예외 상태(lastException)에 예외를 저장하고 다음 Provider 로 넘어간다.
+5. 인증 결과가 존재할 경우, if 조건문 처리 후, 결과를 return 한다.
