@@ -14,9 +14,6 @@ Spring Security 기반 API 인증 방식을 2가지 이상 지원 시, 발생했
 유효하지 않은 인증 정보로 JWT 발급이 가능한 이슈가 발생했다. 
 이슈 해결하는 과정에서 잘못된 예외 처리로 인해 다중 인증 방식이 정상적으로 동작하지 않는 현상도 발생했다.
 
-1. 유효하지 않은 인증 정보로 JWT 발급이 가능했던 원인
-2. 잘못된 예외 처리로 인해 다중 인증 방식이 정상적으로 동작하지 않은 원인
-
 # ProviderManager Class 해체 분석
 
 ```java
@@ -100,3 +97,8 @@ public class ProviderManager implements AuthenticationManager, MessageSourceAwar
 4. AuthenticationException 발생 시, 마지막 예외 상태(lastException)에 예외를 저장하고 다음 Provider 로 넘어간다.
 5. 인증 결과가 존재할 경우, if 조건문 처리 후, 결과를 return 한다.
 6. 인증 결과가 없을 경우, 마지막 Exception 을 throw 한다.
+
+대략 이런 구조로 인증 절차가 수행된다. 다음 포스팅에서는 아래의 원인에 대해 작성하겠다.
+
+1. 유효하지 않은 인증 정보로 JWT 발급이 가능했던 원인
+2. 잘못된 예외 처리로 인해 다중 인증 방식이 정상적으로 동작하지 않은 원인
