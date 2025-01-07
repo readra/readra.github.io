@@ -14,4 +14,5 @@ thumbnail: "/assets/img/thumbnail/auth2.webp"
 - 해결 방안#2. 각 인증 방식 Provider 에서 취급하는 Token 클래스가 아닌 경우, authenticate 함수 return 처리하여 인증 로직을 수행하지 않고 Pass 처리
 2. 잘못된 예외 처리로 인해 다중 인증 방식이 정상적으로 동작하지 않은 현상
 - 원인#1. ProviderManager 에서 throw 처리하는 Exception 을 발생시키고 있어, 다음 Provider 로 넘어가지 않고 즉시 인증이 실패하는 현상
-- 해결 방안 : 
+- 원인#2. 커스텀 인증 방식 중에 실제로 존재하지 않는 ID를 기반으로 한 익명 계정으로 인증할 수 있도록 기능 제공한 사례가 있다. 이 때, 존재하지 않는 익명의 계정 정보로 인증 요청이 온 경우, InternalAuthenticationServiceException 이 발생하여 익명 계정을 기반으로 인증을 수행하는 Provider 까지 넘어가지 않고 인증이 실패하는 현상
+- 해결 방안#1.
