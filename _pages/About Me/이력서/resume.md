@@ -1,6 +1,12 @@
-# 홍길동 (Hong Gil-dong)
+---
+title: "이력서"
+date: "2025-01-01"
+thumbnail: "/assets/img/thumbnail/auth.webp"
+---
 
-📍 **주소**: 서울특별시 강남구  
+# 김진용 (Kim Jin-yong)
+
+📍 **주소**: 서울특별시 강남구
 📞 **전화**: 010-1234-5678  
 📧 **이메일**: honggildong@example.com  
 🌐 **LinkedIn**: [linkedin.com/in/honggildong](https://linkedin.com/in/honggildong)  
