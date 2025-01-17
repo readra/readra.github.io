@@ -6,8 +6,6 @@ thumbnail: "/assets/img/thumbnail/auth.webp"
 
 # 김진용 (Kim Jin-yong)
 
-📍 **주소**: 서울특별시 강남구
-📞 **전화**: 010-1234-5678  
 📧 **이메일**: honggildong@example.com  
 🌐 **LinkedIn**: [linkedin.com/in/honggildong](https://linkedin.com/in/honggildong)  
 🎨 **GitHub**: [github.com/honggildong](https://github.com/honggildong)
