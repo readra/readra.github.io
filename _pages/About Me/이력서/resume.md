@@ -5,10 +5,8 @@ thumbnail: "/assets/img/thumbnail/auth.webp"
 ---
 
 # 김진용 (Kim Jin-yong)
-
-📧 **이메일**: honggildong@example.com  
-🌐 **LinkedIn**: [linkedin.com/in/honggildong](https://linkedin.com/in/honggildong)  
-🎨 **GitHub**: [github.com/honggildong](https://github.com/honggildong)
+  
+🎨 **GitHub**: [github.com/readra](https://github.com/readra)
 
 ---
 
