@@ -20,6 +20,15 @@ Java & Spring 기반의 5년차 백엔드 개발자로 **국내 5,000개 이상�
 
 ---
 
+## **기술 스택**
+
+- **프로그래밍 언어**: Spring/Java
+- **웹 기술**: HTML, CSS, RESTful API, GraphQL
+- **도구**: Git, Docker, Kubernetes, Jenkins
+- **기타**: AWS, Firebase, MongoDB, PostgreSQL
+
+---
+
 ## **경력**
 
 ### **피앤피시큐어** – 연매출 580억, 순이익 270억의 중소 보안 솔루션 기업
@@ -33,15 +42,6 @@ Java & Spring 기반의 5년차 백엔드 개발자로 **국내 5,000개 이상�
 - 경험과
 - 성과 등을
 - 작성하세요.
-
----
-
-## **기술 스택**
-
-- **프로그래밍 언어**: Spring/Java
-- **웹 기술**: HTML, CSS, RESTful API, GraphQL
-- **도구**: Git, Docker, Kubernetes, Jenkins
-- **기타**: AWS, Firebase, MongoDB, PostgreSQL
 
 ---
 
