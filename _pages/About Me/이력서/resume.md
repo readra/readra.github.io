@@ -63,7 +63,6 @@ Java & Spring 기반의 5년차 백엔드 개발자로 **국내 5,000개 이상�
 
 ## **자격증**
 
-- **AWS Certified Solutions Architect** | 2023년 5월
 - **정보처리기사** | 2020년 10월
 
 ---
