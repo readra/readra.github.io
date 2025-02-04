@@ -22,10 +22,10 @@ Java & Spring 기반의 5년차 백엔드 개발자로 **국내 5,000개 이상�
 
 ## **기술 스택**
 
-- **프로그래밍 언어**: Spring/Java
-- **웹 기술**: HTML, CSS, RESTful API, GraphQL
-- **도구**: Git, Docker, Kubernetes, Jenkins
-- **기타**: AWS, Firebase, MongoDB, PostgreSQL
+### 현재 업무에 사용 중 혹은 사용했던 기술들입니다.
+
+- **Backend**: Java, Spring Boot, Spring MVC, Spring Batch, Spring Security, Spring Data JPA
+- **DevOps**: 
 
 ---
 
