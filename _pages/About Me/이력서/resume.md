@@ -64,6 +64,14 @@ On-Premise 와 Cloud 시스템의 다양한 요소를 반영할 수 있는 표�
 #### **리소스 속성(On-premise/Cloud) 수집 모듈 개발**
 - 온프레미스 시스템의 인사/서버/계정 등의 속성 정보를 수집하는 표준 모듈 개발
 - 클라우드 시스템을 구성하는 속성 정보(VPC, AMI, SG, Tag 등)를 수집하는 표준 모듈 개발
+- 기술 스택: `Java`, `Spring Boot`, `WebClient`, `gRPC`, `AWS/GCP/Azure SDK`
+
+#### **속성 자원 관리 서버 개발**
+- 수집한 속성 정보를 중앙에서 관리하는 API 서버 고도화 작업
+- 복잡한 속성 조건 계산을 위한 속성 정보 정렬 및 캐싱 처리
+- 관리자 페이지에서 ABAC 수립에 필요한 API 개발
+- 레거시 접근 제어(RuBAC, RBAC) 모델 호환 지원 작업
+- 기술 스택: `Java`, `Spring Boot`, `Ehcache`, `gRPC`, `MySQL`, `MariaDB`, `MyBatis`, `HikariCP`, `JWT`
 
 ### **프로젝트명 2**
 **기간**: 2023년 9월 – 2023년 11월
