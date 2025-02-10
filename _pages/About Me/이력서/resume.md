@@ -73,7 +73,7 @@ On-Premise 와 Cloud 시스템의 다양한 요소를 반영할 수 있는 표�
 - 레거시 접근 제어(RuBAC, RBAC) 모델 호환 지원 작업
 - 기술 스택: `Java`, `Spring Boot`, `Ehcache`, `gRPC`, `MySQL`, `MariaDB`, `MyBatis`, `HikariCP`, `JWT`
 
-### **프로젝트명 2**
+### **카카오페이/한국산업은행/카카오/라인뱅크/삼성증권**
 **기간**: 2023년 9월 – 2023년 11월
 - **설명**: Python과 Django를 활용한 사내 직원 관리 시스템 구축
 - **기여도**: 백엔드 API 설계 및 데이터베이스 구조 설계
