@@ -30,7 +30,7 @@ Java & Spring 기반의 5년차 백엔드 개발자로 **국내 5,000개 이상�
 - MyBatis, JPA, Hibernate
 - Junit5, Mockito
 - Maven, Gradle 
-- IntelliJ, Eclipse
+- IntelliJ
 
 **DevOps** 
 - MySQL, MariaDB, Oracle, Sybase
