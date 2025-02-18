@@ -1,7 +1,6 @@
 ---
 title: "이력서"
 date: "2025-01-01"
-thumbnail: "/assets/img/thumbnail/resume.gif"
 ---
 
 # 김진용
