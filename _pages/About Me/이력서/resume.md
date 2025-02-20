@@ -24,7 +24,7 @@ Java & Spring 기반의 5년차 백엔드 개발자로 **국내 5,000개 이상�
 ### 현재 업무에 사용 중 혹은 사용했던 기술들입니다.
 
 **Backend**
-- Java, Python
+- Java
 - Spring Boot, Spring Batch, Spring Security, Spring MVC, Spring Data JPA
 - MyBatis, JPA, Hibernate
 - Junit5, Mockito
