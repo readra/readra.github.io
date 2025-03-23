@@ -44,12 +44,12 @@ Java & Spring 기반의 5년차 백엔드 개발자로 **국내 5,000개 이상�
 ### **피앤피시큐어** – 연매출 580억, 순이익 270억의 중소 보안 솔루션 기업
 **백엔드 개발자** | 2021년 5월 ~ 현재
 - ABAC(Attribute-based access control) 모델 개발
-- DBSAFER 백엔드 개발 및 유지보수
-- Cloud(AWS/GCP/Azure/NCP) Auto-Discovery 개발 및 유지보수
+- DBSAFER 백엔드 개발
+- Cloud(AWS/GCP/Azure/NCP) 자원 자동 탐지 및 자사 솔루션과 연계 기능 개발
 
 ### **휴머스온** – 통합메시징 솔루션 기업
 **웹 어플리케이션 개발자** | 2020년 1월 ~ 2021년 5월
-- Mail/SMS/Push/알림톡/Fax 발송 엔진 개발 및 유지보수
+- Mail/SMS/Push/알림톡/Fax 발송 엔진 개발
 - B2B 프로젝트 참여 및 개발 수행
 - 증권사 체결 전용 발송 엔진 개발 (대규모 트래픽, 데이터 환경 경험)
 
