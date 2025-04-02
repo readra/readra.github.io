@@ -67,6 +67,6 @@ public class MultiSendDecoder extends ByteToMessageDecoder {
 }
 ```
 ### 코드 설명
-1. MultiSendConstants.OLD_PROTOCOL : 옛날 프로토콜로 객체의 데이터 길이가 제한되어 있고, 패킷에 데이터를 4바이트 단위로 남는 바이트는 0으로 채운(padding) 형태로 marshaling 하여 패킷 전송
+1. MultiSendConstants.OLD_PROTOCOL : 옛날 프로토콜로 객체의 데이터 길이가 제한되어 있고, 패킷에 데이터를 4바이트 단위로 남는 바이트는 0으로 채운(padding) 형태로 marshalling 하여 패킷 전송
 2. MultiSendConstants.NEW_PROTOCOL_CODE : 신규 프로토콜로 통신해야 할 프로토콜 코드를 먼저 전달
 3. MultiSendConstants.NEW_PROTOCOL_DATA : (2)의 프로토콜 코드 전달 후, 바로 이어서 DATA 패킷 send() 하며, DATA 패킷은 메시지 코드와 이어질 데이터 부분의 전체 길이를 포함한 형태로 패킷 전송
