@@ -10,7 +10,7 @@ thumbnail: "/assets/img/thumbnail/netty.png"
 ## 2. 패킷 유실 상황 대비 Drop 처리
 
 ```java
-public class AccessAuthorityTimeoutHandler extends ChannelDuplexHandler {
+public class NettyTimeoutHandler extends ChannelDuplexHandler {
    @Override
    public void userEventTriggered(ChannelHandlerContext ctx, Object evt) {
        if ( evt instanceof IdleStateEvent) {
@@ -24,5 +24,32 @@ public class AccessAuthorityTimeoutHandler extends ChannelDuplexHandler {
        }
    }
 }
+```
+```java
+@Bean
+public ServerBootstrap serverBootstrap() {
+   ServerBootstrap serverBootstrap = new ServerBootstrap();
 
+
+   serverBootstrap.group(new NioEventLoopGroup(), new NioEventLoopGroup())
+           .channel(NioServerSocketChannel.class)
+           .handler(new LoggingHandler(LogLevel.INFO))
+           .childHandler(new ChannelInitializer<SocketChannel>() {
+               @Override
+               protected void initChannel(SocketChannel ch) throws Exception {
+                   ch.pipeline()
+                           // Read idle timeout 60초 설정
+                           .addLast(new IdleStateHandler(60, 0, 0))
+                           // Read idle timeout 핸들러
+                           .addLast(NettyTimeoutHandler)
+                           // 메시지 디코더
+                           .addLast(new MultiSendDecoder())
+                           // 메시지 핸들러
+                           .addLast(multiSendHandler);
+               }
+           });
+
+
+   return serverBootstrap;
+}
 ```
