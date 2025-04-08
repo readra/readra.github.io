@@ -25,6 +25,8 @@ public class NettyTimeoutHandler extends ChannelDuplexHandler {
    }
 }
 ```
+### 코드 설명
+
 ```java
 @Bean
 public ServerBootstrap serverBootstrap() {
