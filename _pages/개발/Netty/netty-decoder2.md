@@ -26,6 +26,7 @@ public class NettyTimeoutHandler extends ChannelDuplexHandler {
 }
 ```
 ### 코드 설명
+1. 유휴 세선 종료 시, INFO 로그 출력
 
 ```java
 @Bean
@@ -55,3 +56,5 @@ public ServerBootstrap serverBootstrap() {
    return serverBootstrap;
 }
 ```
+### 코드 설명
+1. ServerBootStrap 생성 시, 유휴 타임아웃 설정
