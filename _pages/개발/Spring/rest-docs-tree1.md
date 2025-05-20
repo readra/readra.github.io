@@ -10,3 +10,5 @@ thumbnail: "/assets/img/thumbnail/tree.webp"
 ```java
 subsectionWithPath("results.[].children").description("자식").optional()
 ```
+
+subsectionWithPath 설명
