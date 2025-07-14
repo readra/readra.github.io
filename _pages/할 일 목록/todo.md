@@ -15,6 +15,6 @@ thumbnail: "/assets/img/thumbnail/todo.webp"
 7. Netflix 부검 메일 작성
 8. Rest API 검색 조건 1개 이상 설정 강제
 9. Request Param LocalDateTime 다중 Pattern 적용
-10. @Transactional 과 AOP 활용한 서비스 로직 개선
+10. @Transactional 과 AOP 활용한 로직 개선
 11. Spring REST Docs 버그 잡기
 12. HTTP Proxy 서버
