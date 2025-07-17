@@ -18,3 +18,4 @@ thumbnail: "/assets/img/thumbnail/todo.webp"
 10. @Transactional 과 AOP 활용한 로직 개선
 11. Spring REST Docs 버그 잡기
 12. HTTP Proxy 서버
+13. 세션 리플레이 기능
