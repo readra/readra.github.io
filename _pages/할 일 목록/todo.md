@@ -19,4 +19,4 @@ thumbnail: "/assets/img/thumbnail/todo.webp"
 11. Spring REST Docs 버그 잡기
 12. HTTP Proxy 서버 (LittleProxy)
 13. 세션 리플레이 (rrweb)
-14. 프로덕트 SDK
+14. 프로덕트 SDK (멀티 모듈)
