@@ -12,11 +12,10 @@ thumbnail: "/assets/img/thumbnail/todo.webp"
 4. Spring Security 다중 Provider 사용할 경우, 주의점 (완료)
 5. Tree 구조 REST Docs 적용 (완료)
 6. Request Body 단일 String + 배열 String 동시 적용 (진행중)
-7. Netflix 부검 메일 작성
-8. Rest API 검색 조건 1개 이상 설정 강제
-9. Request Param LocalDateTime 다중 Pattern 적용
-10. @Transactional 과 AOP 활용한 로직 개선
-11. Spring REST Docs 버그 잡기
-12. HTTP Proxy 서버 (LittleProxy)
-13. 세션 리플레이 (rrweb)
-14. 프로덕트 SDK (멀티 모듈)
+7. Rest API 검색 조건 1개 이상 설정 강제Netflix 부검 메일 작성
+8. Request Param LocalDateTime 다중 Pattern 적용
+9. @Transactional 과 AOP 활용한 로직 개선
+10. Spring REST Docs 버그
+11. HTTP Proxy 서버 (LittleProxy)
+12. 세션 리플레이 (rrweb)
+13. 프로덕트 SDK (멀티 모듈)
