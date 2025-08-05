@@ -17,8 +17,8 @@ thumbnail: "/assets/img/thumbnail/todo.webp"
 
 # 완료 목록
 
-1. Spring Boot + Maven 커스텀 빌드 (완료)
-2. Netty Decoder 적용 (완료)
-3. Datasource Router 적용 (완료)
-4. Spring Security 다중 Provider 사용할 경우, 주의점 (완료)
-5. Tree 구조 REST Docs 적용 (완료)
+1. Spring Boot + Maven 커스텀 빌드
+2. Netty Decoder 적용
+3. Datasource Router 적용
+4. Spring Security 다중 Provider 주의점
+5. Tree 구조 REST Docs 적용
