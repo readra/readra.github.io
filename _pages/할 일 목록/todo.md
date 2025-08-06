@@ -20,5 +20,5 @@ thumbnail: "/assets/img/thumbnail/todo.webp"
 1. Spring Boot + Maven 커스텀 빌드
 2. Netty Decoder 적용
 3. Datasource Router 적용
-4. Spring Security 다중 Provider 주의점
+4. Spring Security 다중 Provider 적용
 5. Tree 구조 REST Docs 적용
