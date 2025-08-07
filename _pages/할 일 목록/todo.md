@@ -12,7 +12,7 @@ thumbnail: "/assets/img/thumbnail/todo.webp"
 4. @Transactional 과 AOP 활용한 로직 개선
 5. Spring REST Docs 버그
 6. HTTP Proxy 서버 (LittleProxy)
-7. 세션 리플레이 (rrweb)
+7. 세션 리플레이 (rrweb + Same Origin fetch)
 8. 프로덕트 SDK (멀티 모듈)
 
 # 완료 목록
