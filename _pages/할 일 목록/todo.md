@@ -13,7 +13,6 @@ thumbnail: "/assets/img/thumbnail/todo.webp"
 5. Spring REST Docs 버그
 6. HTTP Proxy 서버 (Netty)
 7. 웹 화면 리플레이 (rrweb / Same Origin(Host) fetch / CSP 우회 / HTTPS / Content-Encoding)
-8. 프로덕트 SDK (멀티 모듈)
 
 # 완료 목록
 
