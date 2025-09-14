@@ -10,7 +10,7 @@ thumbnail: "/assets/img/thumbnail/todo.webp"
 2. Rest API 검색 조건 1개 이상 설정 강제Netflix 부검 메일 작성
 3. Request Param LocalDateTime 다중 Pattern 적용
 4. @Transactional 과 AOP 활용한 로직 개선
-5. Spring REST Docs 버그 (DELETE 메소드 Request Param)
+5. Spring REST Docs 버그 (DELETE Request Param)
 6. HTTP Proxy 서버 (Netty)
 7. 웹 화면 리플레이 (rrweb / Same Origin(Host) fetch / CSP 우회 / HTTPS / Content-Encoding)
 
