@@ -12,7 +12,7 @@ thumbnail: "/assets/img/thumbnail/todo.webp"
 4. @Transactional 과 AOP 활용한 로직 개선
 5. Spring REST Docs 버그 (DELETE Request Param)
 6. HTTP Proxy 서버 (Netty)
-7. 웹 화면 리플레이 (rrweb / Same Origin(Host) fetch / CSP 우회 / HTTPS / Content-Encoding)
+7. 웹 화면 리플레이 (rrweb / Same Origin(Host) fetch / CSP 우회 / Content-Encoding)
 
 # 완료 목록
 
