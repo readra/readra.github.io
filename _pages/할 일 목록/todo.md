@@ -13,7 +13,7 @@ thumbnail: "/assets/img/thumbnail/todo.webp"
 5. Spring REST Docs 버그 (DELETE Request Param)
 6. HTTP Proxy 서버 (Netty)
 7. 웹 화면 리플레이 (rrweb / Same Origin(Host) fetch / CSP 우회 / Content-Encoding)
-8. API Feature 제공 (actuator 사용하지 않은 이유)
+8. API Feature 제공 (actuator 사용하지 않은 이유 / AntPathMatcher match 문제)
 
 # 완료 목록
 
