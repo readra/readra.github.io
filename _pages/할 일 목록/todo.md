@@ -14,7 +14,7 @@ thumbnail: "/assets/img/thumbnail/todo.webp"
 6. HTTP Proxy 서버 (Netty)
 7. 웹 화면 리플레이 (rrweb / Same Origin(Host) fetch / CSP 우회 / Content-Encoding)
 8. API Feature 제공 (actuator 사용하지 않은 이유 / AntPathMatcher match 문제)
-9. 에러 로그 Suppressing
+9. 에러 로그 Suppressing 
 
 # 완료 목록
 
