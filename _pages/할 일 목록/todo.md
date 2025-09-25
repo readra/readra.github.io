@@ -6,14 +6,15 @@ thumbnail: "/assets/img/thumbnail/todo.webp"
 
 # 정리해야 할 글 목록
 1. Request Body 단일 String + 배열 String 동시 적용
-2. Rest API 검색 조건 1개 이상 설정 강제Netflix 부검 메일 작성
-3. Request Param LocalDateTime 다중 Pattern 적용
-4. @Transactional 과 AOP 활용한 로직 개선
-5. Spring REST Docs 버그 (DELETE Request Param)
-6. HTTP Proxy 서버 (Netty)
-7. 웹 화면 리플레이 (rrweb / Same Origin(Host) fetch / CSP 우회 / Content-Encoding)
-8. API Feature 제공 (actuator 사용하지 않은 이유 / AntPathMatcher match 문제)
-9. 에러 로그 Suppressing (Logback Layout Custom)
+2. Rest API 검색 조건 1개 이상 설정 강제
+3. Netflix 부검 메일 작성
+4. Request Param LocalDateTime 다중 Pattern 적용
+5. @Transactional 과 AOP 활용한 로직 개선
+6. Spring REST Docs 버그 (DELETE Request Param)
+7. HTTP Proxy 서버 (Netty)
+8. 웹 화면 리플레이 (rrweb / Same Origin(Host) fetch / CSP 우회 / Content-Encoding)
+9. API Feature 제공 (actuator 사용하지 않은 이유 / AntPathMatcher match 문제)
+10. 에러 로그 Suppressing (Logback Layout Custom)
 
 # 완료 목록
 1. Spring Boot + Maven 커스텀 빌드
