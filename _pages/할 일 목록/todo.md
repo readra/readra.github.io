@@ -15,7 +15,7 @@ thumbnail: "/assets/img/thumbnail/todo.webp"
 8. 웹 화면 리플레이 (rrweb / Same Origin(Host) fetch / CSP 우회 / Content-Encoding)
 9. API Feature 제공 (actuator 사용하지 않은 이유 / AntPathMatcher match 문제)
 10. 에러 로그 Suppressing (Logback Layout Custom)
-11. 2025년 추석 앞둔 뜬금 회고
+11. 2025년 추석 앞둔 뜬금 회고 (회고 작성 이유 / 게임)
 
 # 완료 목록
 1. Spring Boot + Maven 커스텀 빌드
