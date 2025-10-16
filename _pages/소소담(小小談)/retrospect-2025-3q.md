@@ -93,7 +93,7 @@ thumbnail: "/assets/img/thumbnail/2025-3q.gif"
 
 ---
 
-- 앞으로 내가 바라는 커리어 방향
+### 앞으로 내가 바라는 커리어 방향
 
 ---
 
