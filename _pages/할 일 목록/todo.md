@@ -4,7 +4,7 @@ date: "2024-07-07"
 thumbnail: "/assets/img/thumbnail/todo.webp"
 ---
 
-# 정리해야 할 글 목록
+# 정리해야 할 글
 1. Request Body 단일 String + 배열 String 동시 적용
 2. Rest API 검색 조건 1개 이상 설정 강제
 3. Netflix 부검 메일 작성
