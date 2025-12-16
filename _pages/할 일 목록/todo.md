@@ -16,7 +16,7 @@ thumbnail: "/assets/img/thumbnail/todo.webp"
 9. API Feature (actuator 사용하지 않은 이유 / AntPathMatcher match 문제)
 10. 에러 로그 Suppressing (Logback Layout Custom)
 
-# 완료 목록
+# 완료
 1. Spring Boot + Maven 커스텀 빌드
 2. Netty Decoder 적용
 3. Datasource Router 적용
