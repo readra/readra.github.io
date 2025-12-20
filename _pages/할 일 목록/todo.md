@@ -11,7 +11,7 @@ thumbnail: "/assets/img/thumbnail/todo.webp"
 4. Request Param LocalDateTime 다중 Pattern 적용
 5. @Transactional 과 AOP 활용한 로직 개선
 6. Spring REST Docs 버그 (DELETE Request Param)
-7. HTTP Proxy 서버 (Netty)
+7. HTTP Proxy 서버 (Netty / little proxy)
 8. 웹 화면 리플레이 (rrweb / Same Origin fetch / CSP 우회 / Content-Encoding : gzip)
 9. API Feature (actuator 사용하지 않은 이유 / AntPathMatcher match 문제)
 10. 에러 로그 Suppressing (Logback Layout Custom)
