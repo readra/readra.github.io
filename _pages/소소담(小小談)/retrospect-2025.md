@@ -1,5 +1,5 @@
 ---
-title: "2025년 회고"
+title: "2025년 회고록"
 date: "2025-12-27"
 thumbnail: "/assets/img/thumbnail/2025.webp"
 ---
