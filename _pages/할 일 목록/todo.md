@@ -15,7 +15,6 @@ thumbnail: "/assets/img/thumbnail/todo.webp"
 8. 웹 화면 리플레이 (rrweb / 타임라인 / Same Origin fetch / CSP 우회 / Content-Encoding 처리)
 9. API Feature (actuator 사용하지 않은 이유 / AntPathMatcher match 문제)
 10. 에러 로그 Suppressing (Logback Layout Custom)
-11. 2025년 회고
 
 # 완료
 1. Spring Boot / Maven 커스텀 빌드
@@ -24,3 +23,4 @@ thumbnail: "/assets/img/thumbnail/todo.webp"
 4. Spring Security 다중 Provider 적용
 5. Tree 구조 REST Docs 적용
 6. 2025년 3분기 회고
+7. 2025년 회고
