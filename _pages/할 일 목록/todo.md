@@ -10,7 +10,7 @@ thumbnail: "/assets/img/thumbnail/todo.webp"
 3. Netflix 부검 메일 작성
 4. Request Param LocalDateTime 다중 Pattern 적용
 5. @Transactional 과 AOP 활용한 로직 개선
-6. Spring REST Docs 특정 버전 버그 (DELETE Request Param)
+6. Spring REST Docs 버전 버그 (DELETE Request Param)
 7. HTTP Proxy 서버 (Netty / Little Proxy)
 8. 웹 화면 리플레이 (rrweb / Timeline / Same Origin Fetch / CSP / Content-Encoding)
 9. API Feature API (actuator 사용하지 않은 이유 / AntPathMatcher match)
