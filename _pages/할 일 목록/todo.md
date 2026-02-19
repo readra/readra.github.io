@@ -5,7 +5,7 @@ thumbnail: "/assets/img/thumbnail/todo.webp"
 ---
 
 # 서랍
-1. Request Body 단일 / 배열 String 동시 적용
+1. Request Body 단일/배열 String 동시 적용
 2. Rest API 검색 조건 1개 이상 설정 강제
 3. Netflix 부검 메일 작성
 4. Request Param LocalDateTime 다중 Pattern 적용
