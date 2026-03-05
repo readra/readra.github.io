@@ -8,7 +8,7 @@ thumbnail: "/assets/img/thumbnail/todo.webp"
 1. Request Body 단일/배열 String 동시 적용
 2. Rest API 검색 조건 1개 이상 설정 강제
 3. Netflix 부검 메일 작성
-4. Request Param LocalDateTime 다중 Pattern 적용
+4. Request Param LocalDateTime Multi Pattern 적용
 5. @Transactional 과 AOP 활용 개선
 6. Spring REST Docs 버전 버그 (DELETE @RequestParam)
 7. HTTP Proxy 서버 (Netty/Little Proxy)
