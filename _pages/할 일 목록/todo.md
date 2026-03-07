@@ -14,7 +14,7 @@ thumbnail: "/assets/img/thumbnail/todo.webp"
 7. HTTP Proxy 서버 (Netty/Little Proxy)
 8. 웹 화면 리플레이 (rrweb/Timeline/Same Origin Fetch/CSP/Content-Encoding)
 9. API Feature API (actuator 미사용 이유/AntPathMatcher match)
-10. 에러 로그 Suppressing (Logback Layout Customize)
+10. 에러 로그 Suppressing (Logback Layout customize)
 
 # 완료
 1. Spring Boot/Maven 커스텀 빌드
