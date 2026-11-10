@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="800" height="380" font-family="sans-serif">
+  <rect width="800" height="380" rx="12" fill="#f3f6f9"/>
+  <text x="40" y="50" font-size="22" font-weight="700" fill="#1f2a44">교훈 기록부 21줄, 생긴 날</text>
+  <line x1="100" y1="310" x2="740" y2="310" stroke="#1f2a44" stroke-width="2"/>
+  <!-- 1줄 = 12px -->
+  <rect x="150" y="286" width="90" height="24" rx="4" fill="#9fb3c8"/>
+  <rect x="355" y="298" width="90" height="12" rx="4" fill="#9fb3c8"/>
+  <rect x="560" y="94" width="90" height="216" rx="4" fill="#e2603f"/>
+  <g font-size="20" font-weight="700" fill="#1f2a44" text-anchor="middle">
+    <text x="195" y="276">2</text>
+    <text x="400" y="288">1</text>
+    <text x="605" y="84">18</text>
+  </g>
+  <g font-size="17" fill="#1f2a44" text-anchor="middle">
+    <text x="195" y="338">11월 5일</text>
+    <text x="400" y="338">11월 8일</text>
+    <text x="605" y="338">11월 9일</text>
+  </g>
+  <text x="40" y="365" font-size="15" fill="#4a5875">장치를 아직 못 만든 교훈은 2줄 ("열림"으로 남김)</text>
+</svg>

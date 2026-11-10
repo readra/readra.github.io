@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="960" height="520" font-family="sans-serif">
+  <rect width="960" height="520" rx="12" fill="#f3f6f9"/>
+  <text x="40" y="50" font-size="22" font-weight="700" fill="#1f2a44">실수를 막는 장치, 강한 것부터</text>
+
+  <g font-size="18" fill="#1f2a44">
+    <rect x="40" y="80" width="520" height="70" rx="10" fill="#fde2d8" stroke="#e2603f" stroke-width="3"/>
+    <text x="64" y="112" font-weight="700">1  자동 검사</text>
+    <text x="64" y="138" font-size="15" fill="#4a5875">tools/check.mjs, 테스트. 기계가 판단할 수 있으면 늘 이것</text>
+    <rect x="70" y="165" width="490" height="70" rx="10" fill="#fff" stroke="#1f2a44" stroke-width="2"/>
+    <text x="94" y="197" font-weight="700">2  훅</text>
+    <text x="94" y="223" font-size="15" fill="#4a5875">세션 시작, 커밋 전, 셸 명령 전에 끼어든다</text>
+    <rect x="100" y="250" width="460" height="70" rx="10" fill="#fff" stroke="#1f2a44" stroke-width="2"/>
+    <text x="124" y="282" font-weight="700">3  스킬</text>
+    <text x="124" y="308" font-size="15" fill="#4a5875">회고, 시뮬레이션, 결정 기록의 순서표</text>
+    <rect x="130" y="335" width="430" height="70" rx="10" fill="#fff" stroke="#9fb3c8" stroke-width="2" stroke-dasharray="6 5"/>
+    <text x="154" y="367" font-weight="700" fill="#4a5875">4  문장</text>
+    <text x="154" y="393" font-size="15" fill="#4a5875">CLAUDE.md 에 적은 다짐. 가장 약하다</text>
+  </g>
+
+  <!-- 커밋 흐름 -->
+  <g font-size="16" fill="#1f2a44">
+    <rect x="640" y="90" width="260" height="50" rx="25" fill="#fff" stroke="#1f2a44" stroke-width="2"/>
+    <text x="770" y="121" text-anchor="middle">git commit</text>
+    <rect x="640" y="190" width="260" height="50" rx="10" fill="#fff" stroke="#1f2a44" stroke-width="2"/>
+    <text x="770" y="221" text-anchor="middle">커밋 전 훅</text>
+    <rect x="640" y="290" width="260" height="50" rx="10" fill="#fde2d8" stroke="#e2603f" stroke-width="3"/>
+    <text x="770" y="321" text-anchor="middle">check.mjs 가 전부 확인</text>
+    <text x="640" y="395" fill="#e2603f">실패하면 커밋이 막힌다</text>
+    <text x="640" y="420" fill="#4a5875">통과하면 커밋, 그리고 push</text>
+  </g>
+  <g stroke="#1f2a44" stroke-width="2" fill="none">
+    <path d="M770 140V186"/><path d="M764 180L770 188L776 180"/>
+    <path d="M770 240V286"/><path d="M764 280L770 288L776 280"/>
+  </g>
+  <text x="40" y="470" font-size="15" fill="#4a5875">검사를 하나 더할 때마다 일부러 그 실수를 다시 심어서, 정말 잡는지 보고 되돌렸다</text>
+</svg>
