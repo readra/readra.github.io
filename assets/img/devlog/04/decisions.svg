@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="960" height="560" font-family="sans-serif">
+  <rect width="960" height="560" rx="12" fill="#f3f6f9"/>
+  <text x="40" y="50" font-size="22" font-weight="700" fill="#1f2a44">하루 동안 고른 추천안 (일부)</text>
+  <g font-size="17" fill="#1f2a44">
+    <rect x="40" y="80" width="560" height="44" rx="8" fill="#fde2d8" stroke="#e2603f" stroke-width="3"/>
+    <text x="60" y="108">판 안은 서바이버류 장르 팬 기준으로</text>
+    <rect x="40" y="134" width="560" height="44" rx="8" fill="#fff" stroke="#1f2a44" stroke-width="2"/>
+    <text x="60" y="162">강화는 카드 종류에, 등급과 옵션은 한 장마다</text>
+    <rect x="40" y="188" width="560" height="44" rx="8" fill="#fde2d8" stroke="#e2603f" stroke-width="3"/>
+    <text x="60" y="216">판에서 주운 카드는 몇 장만, 나머지는 강화 재료로</text>
+    <rect x="40" y="242" width="560" height="44" rx="8" fill="#fde2d8" stroke="#e2603f" stroke-width="3"/>
+    <text x="60" y="270">강화는 수치보다 성격으로, 수치 증가는 작게</text>
+    <rect x="40" y="296" width="560" height="44" rx="8" fill="#fff" stroke="#1f2a44" stroke-width="2"/>
+    <text x="60" y="324">판에는 무기 1장과 후보 묶음을 들고</text>
+    <rect x="40" y="350" width="560" height="44" rx="8" fill="#fff" stroke="#9fb3c8" stroke-width="2" stroke-dasharray="6 5"/>
+    <text x="60" y="378" fill="#4a5875">차별점, 맵 감성: 나중에 나란히 (미룸)</text>
+  </g>
+  <g font-size="15" fill="#2f6fdc" font-weight="700">
+    <text x="612" y="108">추천</text><text x="612" y="162">추천</text><text x="612" y="216">추천</text>
+    <text x="612" y="270">추천</text><text x="612" y="324">추천</text>
+  </g>
+  <path d="M320 400V440" stroke="#1f2a44" stroke-width="2"/><path d="M314 434L320 442L326 434" stroke="#1f2a44" stroke-width="2" fill="none"/>
+  <rect x="140" y="450" width="360" height="50" rx="25" fill="#1f2a44"/>
+  <text x="320" y="482" font-size="18" fill="#fff" text-anchor="middle">"평범한 뱀파이어 서바이버"</text>
+  <g font-size="15" fill="#4a5875">
+    <text x="680" y="420">빨간 칸 셋이</text>
+    <text x="680" y="442">나중에 원하는 것과</text>
+    <text x="680" y="464">크게 부딪친 결정이다</text>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#d6e0ea" stroke-width="1"/>
+    </pattern>
+    <pattern id="grid5" width="150" height="150" patternUnits="userSpaceOnUse">
+      <path d="M150 0H0V150" fill="none" stroke="#bfcddc" stroke-width="1.2"/>
+    </pattern>
+    <!-- 적 떼 한 덩이 -->
+    <g id="pack">
+      <circle cx="0" cy="0" r="14"/><circle cx="30" cy="8" r="14"/><circle cx="12" cy="30" r="14"/>
+      <circle cx="44" cy="36" r="14"/><circle cx="-20" cy="24" r="14"/><circle cx="20" cy="-26" r="14"/>
+    </g>
+  </defs>
+  <rect width="1200" height="630" fill="#f3f6f9"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect width="1200" height="630" fill="url(#grid5)"/>
+  <line x1="96" y1="0" x2="96" y2="630" stroke="#ec9a9a" stroke-width="3"/>
+  <g fill="#e2603f" stroke="#1f2a44" stroke-width="2.5">
+    <use href="#pack" x="200" y="100"/><use href="#pack" x="380" y="70"/><use href="#pack" x="560" y="90"/>
+    <use href="#pack" x="760" y="80"/><use href="#pack" x="960" y="110"/><use href="#pack" x="1080" y="250"/>
+    <use href="#pack" x="1040" y="430"/><use href="#pack" x="880" y="530"/><use href="#pack" x="680" y="550"/>
+    <use href="#pack" x="480" y="540"/><use href="#pack" x="290" y="520"/><use href="#pack" x="170" y="380"/>
+    <use href="#pack" x="180" y="240"/><use href="#pack" x="840" y="300"/><use href="#pack" x="400" y="330"/>
+  </g>
+  <circle cx="620" cy="320" r="40" fill="#fff" stroke="#1f2a44" stroke-width="3"/>
+  <circle cx="620" cy="320" r="32" fill="#2f6fdc"/>
+  <circle cx="632" cy="328" r="7" fill="#fff"/>
+</svg>
