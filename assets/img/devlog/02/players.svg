@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300" font-family="sans-serif">
+  <rect width="900" height="300" rx="12" fill="#f3f6f9"/>
+  <text x="40" y="50" font-size="22" font-weight="700" fill="#1f2a44">가상 플레이어 세 성격 (설정마다 200명씩)</text>
+  <g stroke="#1f2a44" stroke-width="3">
+    <circle cx="150" cy="140" r="34" fill="#2f6fdc"/>
+    <circle cx="450" cy="140" r="34" fill="#2f6fdc"/>
+    <circle cx="750" cy="140" r="34" fill="#2f6fdc"/>
+  </g>
+  <g fill="#fff">
+    <circle cx="140" cy="150" r="7"/><circle cx="440" cy="150" r="7"/><circle cx="740" cy="150" r="7"/>
+  </g>
+  <g font-size="21" font-weight="700" fill="#1f2a44" text-anchor="middle">
+    <text x="150" y="210">기본</text>
+    <text x="450" y="210">수치만</text>
+    <text x="750" y="210">일찍 끝냄</text>
+  </g>
+  <g font-size="16" fill="#4a5875" text-anchor="middle">
+    <text x="150" y="240">다음 적의 성질에 맞춰</text>
+    <text x="150" y="262">카드를 고른다</text>
+    <text x="450" y="240">성질은 무시하고</text>
+    <text x="450" y="262">센 카드만 쓴다</text>
+    <text x="750" y="240">판의 30%쯤에서</text>
+    <text x="750" y="262">스스로 그만둔다</text>
+  </g>
+</svg>
