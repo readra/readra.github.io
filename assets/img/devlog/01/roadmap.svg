@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600" font-family="sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#e2603f"/>
+    </marker>
+  </defs>
+  <rect width="960" height="600" rx="12" fill="#f3f6f9"/>
+  <text x="70" y="56" font-size="24" font-weight="700" fill="#1f2a44">바꾸기 전</text>
+  <text x="560" y="56" font-size="24" font-weight="700" fill="#1f2a44">바꾼 뒤</text>
+
+  <g font-size="19" fill="#1f2a44">
+    <rect x="60" y="80" width="330" height="48" rx="8" fill="#fff" stroke="#1f2a44" stroke-width="2"/>
+    <text x="80" y="111">0  전제 조건</text>
+    <rect x="60" y="140" width="330" height="48" rx="8" fill="#fde2d8" stroke="#e2603f" stroke-width="3"/>
+    <text x="80" y="171">1  코어 루프 (조작 형태부터)</text>
+    <rect x="60" y="200" width="330" height="48" rx="8" fill="#fff" stroke="#1f2a44" stroke-width="2"/>
+    <text x="80" y="231">2  카드 시스템</text>
+    <rect x="60" y="260" width="330" height="48" rx="8" fill="#fff" stroke="#1f2a44" stroke-width="2"/>
+    <text x="80" y="291">3  메타 성장</text>
+    <rect x="60" y="320" width="330" height="48" rx="8" fill="#fff" stroke="#1f2a44" stroke-width="2"/>
+    <text x="80" y="351">4  세계관, 톤</text>
+    <rect x="60" y="380" width="330" height="48" rx="8" fill="#fff" stroke="#1f2a44" stroke-width="2"/>
+    <text x="80" y="411">5  화제성</text>
+    <rect x="60" y="440" width="330" height="48" rx="8" fill="#fff" stroke="#1f2a44" stroke-width="2"/>
+    <text x="80" y="471">6  현실 범위</text>
+  </g>
+
+  <g font-size="19" fill="#1f2a44">
+    <rect x="550" y="80" width="340" height="48" rx="8" fill="#fff" stroke="#1f2a44" stroke-width="2"/>
+    <text x="570" y="111">1  틀 (누구에게, 어디서, 끝은 있나)</text>
+    <rect x="550" y="140" width="340" height="48" rx="8" fill="#fff" stroke="#1f2a44" stroke-width="2"/>
+    <text x="570" y="171">2  런 밖 경제와 카드 구조</text>
+    <rect x="550" y="200" width="340" height="48" rx="8" fill="#fff" stroke="#1f2a44" stroke-width="2"/>
+    <text x="570" y="231">3  런 구조</text>
+    <rect x="550" y="260" width="340" height="48" rx="8" fill="#fde2d8" stroke="#e2603f" stroke-width="3"/>
+    <text x="570" y="291">4  조작 형태</text>
+    <rect x="550" y="320" width="340" height="48" rx="8" fill="#fff" stroke="#1f2a44" stroke-width="2"/>
+    <text x="570" y="351">5  세계관과 톤</text>
+    <rect x="550" y="380" width="340" height="48" rx="8" fill="#fff" stroke="#1f2a44" stroke-width="2"/>
+    <text x="570" y="411">6  엔진과 스택</text>
+    <rect x="550" y="440" width="340" height="48" rx="8" fill="none" stroke="#1f2a44" stroke-width="2" stroke-dasharray="6 5"/>
+    <text x="570" y="471">나란히: 아트 검증, 화제성</text>
+  </g>
+
+  <path d="M392 164 C 470 164, 470 284, 546 284" fill="none" stroke="#e2603f" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="60" y="548" font-size="18" fill="#4a5875">조작 형태는 1번에서 4번으로. 그 앞에 "무엇을 만들고 어떻게 판정할지"가 들어왔다</text>
+</svg>
