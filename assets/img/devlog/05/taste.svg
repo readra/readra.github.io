@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="900" height="420" font-family="sans-serif">
   <rect width="900" height="420" rx="12" fill="#f3f6f9"/>
-  <text x="40" y="50" font-size="22" font-weight="700" fill="#1f2a44">감성 맞추기 세 판: Claude 적중률과 기준선</text>
+  <text x="40" y="50" font-size="22" font-weight="700" fill="#1f2a44">감성 맞추기 세 차례: Claude 적중률과 기준선</text>
   <text x="40" y="76" font-size="14" fill="#4a5875">기준선 = 늘 같은 답만 찍어도 나오는 적중률. 싱크 판정 = 80% 이상, 기준선보다 15%p 이상</text>
   <!-- 100% = 400px, x0 = 150 -->
   <line x1="470" y1="95" x2="470" y2="350" stroke="#e2603f" stroke-width="2" stroke-dasharray="6 5"/>
   <text x="476" y="110" font-size="13" fill="#e2603f">80%</text>
   <g font-size="18" font-weight="700" fill="#1f2a44">
-    <text x="40" y="150">1판</text><text x="40" y="240">2판</text><text x="40" y="330">3판</text>
+    <text x="40" y="150">1차</text><text x="40" y="240">2차</text><text x="40" y="330">3차</text>
   </g>
   <rect x="150" y="125" width="193" height="22" rx="4" fill="#2f6fdc"/>
   <rect x="150" y="151" width="222" height="22" rx="4" fill="#9fb3c8"/>
@@ -19,5 +19,5 @@
     <text x="366" y="232">Claude 15/29 (52%)</text><text x="435" y="258">기준선 20/29 (69%)</text>
     <text x="445" y="322">Claude 15/21 (71%)</text><text x="407" y="348">기준선 13/21 (62%)</text>
   </g>
-  <text x="40" y="395" font-size="14" fill="#4a5875">3판은 기준선을 넘었지만, 지난 판 답을 그대로 따라 한 것(16/18)보다는 못했다</text>
+  <text x="40" y="395" font-size="14" fill="#4a5875">3차는 기준선을 넘었지만, 지난 차례의 답을 그대로 따라 한 것(16/18)보다는 못했다</text>
 </svg>

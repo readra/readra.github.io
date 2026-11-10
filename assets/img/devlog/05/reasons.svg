@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" width="900" height="400" font-family="sans-serif">
   <rect width="900" height="400" rx="12" fill="#f3f6f9"/>
-  <text x="40" y="50" font-size="22" font-weight="700" fill="#1f2a44">3판에서 고른 이유 (그림마다 하나 이상)</text>
+  <text x="40" y="50" font-size="22" font-weight="700" fill="#1f2a44">3차에서 고른 이유 (그림마다 하나 이상)</text>
   <text x="40" y="92" font-size="18" font-weight="700" fill="#2f6fdc">끌림 8장</text>
   <text x="470" y="92" font-size="18" font-weight="700" fill="#e2603f">별로 13장</text>
   <!-- 1 = 40px -->
