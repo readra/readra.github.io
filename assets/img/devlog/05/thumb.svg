@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#d6e0ea" stroke-width="1"/>
+    </pattern>
+    <g id="frame">
+      <rect x="0" y="0" width="150" height="100" rx="8" fill="#fff" stroke="#1f2a44" stroke-width="3"/>
+      <path d="M14 82L52 44L82 70L104 52L136 82Z" fill="#c9d5e2"/>
+      <circle cx="112" cy="28" r="10" fill="#c9d5e2"/>
+    </g>
+    <g id="x"><path d="M-14 -14L14 14M14 -14L-14 14" stroke="#e2603f" stroke-width="7" stroke-linecap="round"/></g>
+    <g id="o"><circle r="14" fill="none" stroke="#2f6fdc" stroke-width="7"/></g>
+    <g id="q"><circle r="15" fill="#9fb3c8"/><text x="0" y="7" font-family="sans-serif" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">?</text></g>
+  </defs>
+  <rect width="1200" height="630" fill="#f3f6f9"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <line x1="96" y1="0" x2="96" y2="630" stroke="#ec9a9a" stroke-width="3"/>
+  <use href="#frame" x="170" y="70"/><use href="#frame" x="370" y="70"/><use href="#frame" x="570" y="70"/><use href="#frame" x="770" y="70"/><use href="#frame" x="970" y="70"/>
+  <use href="#frame" x="170" y="460"/><use href="#frame" x="370" y="460"/><use href="#frame" x="570" y="460"/><use href="#frame" x="770" y="460"/><use href="#frame" x="970" y="460"/>
+  <use href="#x" x="305" y="80"/><use href="#x" x="505" y="80"/><use href="#o" x="705" y="80"/><use href="#x" x="905" y="80"/><use href="#q" x="1105" y="80"/>
+  <use href="#x" x="305" y="470"/><use href="#q" x="505" y="470"/><use href="#x" x="705" y="470"/><use href="#o" x="905" y="470"/><use href="#x" x="1105" y="470"/>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" width="900" height="400" font-family="sans-serif">
+  <rect width="900" height="400" rx="12" fill="#f3f6f9"/>
+  <text x="40" y="50" font-size="22" font-weight="700" fill="#1f2a44">3판에서 고른 이유 (그림마다 하나 이상)</text>
+  <text x="40" y="92" font-size="18" font-weight="700" fill="#2f6fdc">끌림 8장</text>
+  <text x="470" y="92" font-size="18" font-weight="700" fill="#e2603f">별로 13장</text>
+  <!-- 1 = 40px -->
+  <g font-size="15" fill="#1f2a44">
+    <text x="40" y="130">그림체</text><rect x="160" y="116" width="200" height="20" rx="4" fill="#2f6fdc"/><text x="366" y="131">5</text>
+    <text x="40" y="166">할 게 보임</text><rect x="160" y="152" width="160" height="20" rx="4" fill="#2f6fdc"/><text x="326" y="167">4</text>
+    <text x="40" y="202">전투, 손맛</text><rect x="160" y="188" width="160" height="20" rx="4" fill="#2f6fdc"/><text x="326" y="203">4</text>
+    <text x="40" y="238">캐릭터</text><rect x="160" y="224" width="120" height="20" rx="4" fill="#2f6fdc"/><text x="286" y="239">3</text>
+    <text x="40" y="274">색감, 분위기</text><rect x="160" y="260" width="120" height="20" rx="4" fill="#2f6fdc"/><text x="286" y="275">3</text>
+
+    <text x="470" y="130">너무 단순, 밋밋함</text><rect x="620" y="116" width="210" height="20" rx="4" fill="#e2603f"/><text x="836" y="131">7</text>
+    <text x="470" y="166">메뉴, 대화 화면</text><rect x="620" y="152" width="150" height="20" rx="4" fill="#e2603f"/><text x="776" y="167">5</text>
+    <text x="470" y="202">너무 정신없음</text><rect x="620" y="188" width="150" height="20" rx="4" fill="#e2603f"/><text x="776" y="203">5</text>
+    <text x="470" y="238">너무 무거움</text><rect x="620" y="224" width="60" height="20" rx="4" fill="#e2603f"/><text x="686" y="239">2</text>
+  </g>
+  <text x="40" y="330" font-size="15" fill="#4a5875">"할 게 보임"(파밍, 장비, 카드가 화면에 보임)은 끌림의 큰 이유였는데, Claude는 한 장에도 이 이유를 걸지 않았다</text>
+  <text x="40" y="356" font-size="15" fill="#4a5875">한 번도 고르지 않은 이유: 이 게임을 알아서, 대전이나 경쟁 느낌, 이야기</text>
+</svg>
